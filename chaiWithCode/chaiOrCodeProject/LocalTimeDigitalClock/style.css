@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    height: 100vh
+    
+}
+
+main{
+    background-color: #111;
+    color: #fff;
+    padding: 2%;
+  
+    width: 100%;
+    max-width:380px;
+   
+}
+h2{text-align: center;}
+
+main p{
+    background-color: yellow;
+    padding: 20px;
+    margin-top: 20px;
+    color: #111;
+    text-align: center;
+    border-radius: 5px;
+
+}

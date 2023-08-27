@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    height: 100vh
+    
+}
+
+main{
+    background-color: #111;
+    color: #fff;
+    padding: 2%;
+  
+    width: 100%;
+    max-width:380px;
+}
+form p {
+    width: 100%;
+    margin-top: 20px;
+}
+form p label{
+    width: 25%;
+    display: inline-block;
+}
+form p input{
+    width: 75%; 
+   
+}
+
+form button{
+    background-color: #fff;
+    padding: 10px 20px;
+    outline-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 2px solid #111;
+}
+form button:hover{
+    border: 2px solid #fff;
+    color:#fff;
+    background-color: #111;
+}

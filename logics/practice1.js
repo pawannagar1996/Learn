@@ -2,7 +2,7 @@
 // [-1 , -2 , -3 , -4 , 0 , 1 , 2 , 3] = input
 
 
-  const input = [-1 , -2 , -3 , -4 , 0 , 1 , 2 , 3]
+  const input = [-1 , -2 , -3 , -4 , 0 , 5 , 6 ,7]
 
 function getSumPairZero(array){
 for (let num of array) {
@@ -10,6 +10,7 @@ for (let num of array) {
         if(num + array[innnerIndex] === 0 ){
 return [num , array[innnerIndex]]
         }
+        else{return "koi bhi value nahi h"}
       
     }
 }
